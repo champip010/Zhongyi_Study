@@ -1,8 +1,0 @@
-
-/Users/lidong/raysdata/word/文档/ratu-科研助手/导入论文模版/3篇示例文件/2a980dd89d747f3e40e259d84fbe1272.pdf/article.json
-/Users/lidong/raysdata/word/文档/ratu-科研助手/导入论文模版/3篇示例文件/2e17335d189b4691eafdae37a45036f8.pdf/article.json
-/Users/lidong/raysdata/word/文档/ratu-科研助手/导入论文模版/3篇示例文件/4b83dda96d33be6dc4dfb242a67db7b2.pdf/article.json
-
-/Users/lidong/raysdata/word/文档/ratu-科研助手/导入论文模版/3篇示例文件/2a980dd89d747f3e40e259d84fbe1272.pdf/article.json
-/Users/lidong/raysdata/word/文档/ratu-科研助手/导入论文模版/3篇示例文件/2e17335d189b4691eafdae37a45036f8.pdf/article.json
-/Users/lidong/raysdata/word/文档/ratu-科研助手/导入论文模版/3篇示例文件/4b83dda96d33be6dc4dfb242a67db7b2.pdf/article.json

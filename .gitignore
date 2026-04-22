@@ -1,9 +1,17 @@
 # Dependencies
 node_modules/
 
+# Reference Modules (Ignoring large sub-projects)
+AcuKG-Knowledge-graph-for-medical-acupuncture/
+data/AcuKG-Knowledge-graph-for-medical-acupuncture/
+acupuncture-api/
+nanatex/
+PointWise_Body/
+miaoshou-wj/
+
 # Data files
 data/*.pdf
-# Keep other data files if needed, but usually large ones are ignored
+# Keep other data files if needed
 # data/*.xlsx
 
 # System files
@@ -14,10 +22,6 @@ desktop.ini
 # IDE files
 .vscode/
 .idea/
-
-# Scripts output
-# js/data.js
-# js/acukg.js
 
 # Temporary files
 *.tmp
