@@ -43,10 +43,24 @@ const FlashcardApp = {
     loadDeck() {
         if (this.studyMode === 'illness') {
             this.deck = [...Store.getData()];
-        } else {
+        } else if (this.studyMode === 'acupoint') {
             // Use AcuKG acupoint data
             const acuData = (window.AcuKG && window.AcuKG.dataList) ? window.AcuKG.dataList : [];
             this.deck = acuData.filter(a => a.zh); // only those with a Chinese name
+        } else if (this.studyMode === 'neike') {
+            // Flatten neikeData patterns into individual cards
+            const neike = window.neikeData || [];
+            const cards = [];
+            neike.forEach(d => {
+                d.patterns.forEach(p => {
+                    cards.push({
+                        ...p,
+                        disease: d.disease,
+                        category: d.category
+                    });
+                });
+            });
+            this.deck = cards;
         }
     },
 
@@ -79,8 +93,10 @@ const FlashcardApp = {
         let html;
         if (this.studyMode === 'illness') {
             html = this.renderIllnessCard(cardData);
-        } else {
+        } else if (this.studyMode === 'acupoint') {
             html = this.renderAcupointCard(cardData);
+        } else if (this.studyMode === 'neike') {
+            html = this.renderNeikeCard(cardData);
         }
 
         this.container.innerHTML = html;
@@ -167,6 +183,52 @@ const FlashcardApp = {
                     <p class="acu-back-en">${acu.en || ''}</p>
                     <h3 style="margin: 16px 0 10px;"><i class="fa-solid fa-notes-medical"></i> 主治适应症</h3>
                     <div class="ind-tags-container">${indicationsHtml}</div>
+                </div>
+            </div>
+        `;
+    },
+    
+    renderNeikeCard(cardData) {
+        const herbsHtml = window.AcuKG
+            ? window.AcuKG.wrapAcupoints(cardData.herbs || 'N/A')
+            : (cardData.herbs || 'N/A');
+
+        return `
+            <div class="flashcard neike-mode-card" id="current-card">
+                <div class="fc-face fc-front">
+                    <div class="fc-mode-badge neike-badge">内科方剂</div>
+                    <div class="fc-disease">${cardData.disease}</div>
+                    <div class="fc-syndrome">${cardData.name}</div>
+                    <div class="fc-manifestation">${cardData.symptoms || ''}</div>
+                    <div class="fc-hint"><i class="fa-solid fa-hand-pointer"></i> 点击查看治法与处方</div>
+                </div>
+                <div class="fc-face fc-back">
+                    <div class="neike-back-header">
+                        <span class="neike-cat-badge">${cardData.category}</span>
+                        <h3>${cardData.disease} · ${cardData.name}</h3>
+                    </div>
+                    
+                    <div class="neike-back-content">
+                        <div class="detail-section">
+                            <strong>治法：</strong><span>${cardData.principle}</span>
+                        </div>
+                        <div class="detail-section">
+                            <strong>处方：</strong><span style="font-size: 1.2rem; font-weight: 700;">${cardData.formula}</span>
+                        </div>
+                        <div class="detail-section">
+                            <strong>组成：</strong><p class="herbs-text" style="margin-top: 5px;">${herbsHtml}</p>
+                        </div>
+                        <div class="detail-section">
+                            <strong>舌脉：</strong><span>${cardData.tongue} ${cardData.pulse}</span>
+                        </div>
+                        
+                        ${cardData.song ? `
+                            <div class="formula-song" style="margin-top: 15px;">
+                                <i class="fa-solid fa-music"></i>
+                                <p>${cardData.song}</p>
+                            </div>
+                        ` : ''}
+                    </div>
                 </div>
             </div>
         `;

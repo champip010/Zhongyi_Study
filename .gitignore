@@ -1,0 +1,13 @@
+# Large files
+*.pdf
+
+# Excel files (optional, but good to ignore backups)
+# *_备份.xlsx
+
+# System files
+.DS_Store
+Thumbs.db
+
+# OS generated temporary files
+*.tmp
+*.temp

@@ -35,13 +35,23 @@ const QuizApp = {
     },
 
     startQuiz() {
-        const data = Store.getData();
-        if (data.length < 4) {
-            alert('Not enough data to generate a quiz. Need at least 4 records.');
-            return;
+        const quizType = document.querySelector('input[name="quiz-type"]:checked').value;
+        
+        if (quizType === 'acupuncture') {
+            const data = Store.getData();
+            if (data.length < 4) {
+                alert('数据不足，无法生成测试。请至少添加4个病症。');
+                return;
+            }
+            this.generateQuestions(data);
+        } else {
+            const neike = window.neikeData || [];
+            if (neike.length < 2) {
+                alert('内科数据加载失败。');
+                return;
+            }
+            this.generateNeikeQuestions(neike);
         }
-
-        this.generateQuestions(data);
         
         this.currentQIndex = 0;
         this.score = 0;
@@ -81,6 +91,51 @@ const QuizApp = {
                 options: options,
                 correctIndex: correctIndex,
                 explanation: `治疗原则: ${correctItem.principles || 'N/A'}`
+            });
+        }
+    },
+
+    generateNeikeQuestions(data) {
+        this.questions = [];
+        // Flatten all patterns
+        const allPatterns = [];
+        data.forEach(d => {
+            d.patterns.forEach(p => {
+                allPatterns.push({ ...p, disease: d.disease });
+            });
+        });
+
+        let shuffled = [...allPatterns].sort(() => 0.5 - Math.random());
+        const num = Math.min(this.maxQuestions, shuffled.length);
+
+        for (let i = 0; i < num; i++) {
+            const correct = shuffled[i];
+            const type = Math.random() > 0.5 ? 'formula' : 'principle'; // Randomize question type
+            
+            const wrongOptions = [];
+            while (wrongOptions.length < 3) {
+                const rand = allPatterns[Math.floor(Math.random() * allPatterns.length)];
+                const val = type === 'formula' ? rand.formula : rand.principle;
+                const correctVal = type === 'formula' ? correct.formula : correct.principle;
+                
+                if (val !== correctVal && !wrongOptions.includes(val)) {
+                    wrongOptions.push(val);
+                }
+            }
+
+            const correctVal = type === 'formula' ? correct.formula : correct.principle;
+            const options = [...wrongOptions, correctVal].sort(() => 0.5 - Math.random());
+            const correctIndex = options.indexOf(correctVal);
+
+            const qText = type === 'formula' 
+                ? `<strong>${correct.disease} · ${correct.name}</strong> 的代表方剂是？`
+                : `<strong>${correct.disease} · ${correct.name}</strong> 的治疗原则是？`;
+
+            this.questions.push({
+                questionText: qText,
+                options: options,
+                correctIndex: correctIndex,
+                explanation: `症状: ${correct.symptoms.substring(0, 50)}...`
             });
         }
     },

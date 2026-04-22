@@ -28,6 +28,7 @@
                 <li><a href="#" data-view="quiz"><i class="fa-solid fa-clipboard-question"></i> 测试 (Quiz)</a></li>
                 <li><a href="#" data-view="manage"><i class="fa-solid fa-list-check"></i> 管理病症</a></li>
                 <li><a href="#" data-view="acupoints"><i class="fa-solid fa-circle-dot"></i> 穴位大全</a></li>
+                <li><a href="#" data-view="neike"><i class="fa-solid fa-book-medical"></i> 内科学习</a></li>
             </ul>
             <div class="theme-toggle">
                 <button id="theme-btn"><i class="fa-solid fa-moon"></i></button>
@@ -71,6 +72,7 @@
                     <div class="flashcard-mode-toggle">
                         <button class="mode-btn active" data-mode="illness">疾病配穴 (Illnesses)</button>
                         <button class="mode-btn" data-mode="acupoint">穴位百科 (Acupoints)</button>
+                        <button class="mode-btn" data-mode="neike">内科方剂 (Internal Med)</button>
                     </div>
 
                     <div class="flashcard-controls">
@@ -92,8 +94,18 @@
                 <!-- Quiz View -->
                 <section id="view-quiz" class="view hidden">
                     <div class="quiz-setup" id="quiz-setup">
-                        <h2>准备好测试一下了吗？</h2>
-                        <p>将随机测试主穴配伍知识。</p>
+                        <h2>知识测试</h2>
+                        <p>准备好测试您的针灸与内科知识了吗？</p>
+                        
+                        <div class="quiz-type-selection" style="margin: 20px 0; text-align: left; max-width: 300px; margin-left: auto; margin-right: auto;">
+                            <label style="display: block; margin-bottom: 12px; cursor: pointer; padding: 10px; border: 1px solid var(--border-color); border-radius: 8px;">
+                                <input type="radio" name="quiz-type" value="acupuncture" checked> 针灸配穴测试
+                            </label>
+                            <label style="display: block; cursor: pointer; padding: 10px; border: 1px solid var(--border-color); border-radius: 8px;">
+                                <input type="radio" name="quiz-type" value="neike"> 内科方剂测试
+                            </label>
+                        </div>
+
                         <button class="primary-btn" id="quiz-start">开始测试 (10题)</button>
                     </div>
 
@@ -167,6 +179,28 @@
                     </div>
                 </section>
 
+                <!-- Internal Medicine View -->
+                <section id="view-neike" class="view hidden">
+                    <div class="neike-toolbar">
+                        <div class="category-tabs" id="neike-categories">
+                            <button class="cat-btn active" data-cat="all">全部</button>
+                            <button class="cat-btn" data-cat="肺">肺系</button>
+                            <button class="cat-btn" data-cat="心脑">心脑</button>
+                            <button class="cat-btn" data-cat="脾">脾胃</button>
+                            <button class="cat-btn" data-cat="肝">肝胆</button>
+                            <button class="cat-btn" data-cat="肾">肾系</button>
+                            <button class="cat-btn" data-cat="气血津液">气血</button>
+                        </div>
+                        <div class="search-box">
+                            <i class="fa-solid fa-search"></i>
+                            <input type="text" id="neike-search" placeholder="搜索疾病、证型或处方...">
+                        </div>
+                    </div>
+                    <div id="neike-list-container" class="neike-grid">
+                        <!-- Content injected via JS -->
+                    </div>
+                </section>
+
                 <!-- Acupoint Info View -->
                 <section id="view-acupoint-info" class="view hidden">
                     <div id="acupoint-info-content">
@@ -186,6 +220,8 @@
     <script src="quiz.js"></script>
     <script src="manage.js"></script>
     <script src="acupoints.js"></script>
+    <script src="neike_data.js"></script>
+    <script src="neike.js"></script>
     <script src="app.js"></script>
 </body>
 

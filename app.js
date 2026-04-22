@@ -78,6 +78,9 @@ const App = {
             case 'acupoints':
                 if (window.AcupointsApp) window.AcupointsApp.init();
                 break;
+            case 'neike':
+                if (window.NeikeApp) window.NeikeApp.init();
+                break;
         }
     },
 
@@ -122,4 +125,5 @@ document.addEventListener('DOMContentLoaded', () => {
     if (window.QuizApp) window.QuizApp.setupEvents();
     if (window.ManageApp) window.ManageApp.setupEvents();
     if (window.AcupointsApp) window.AcupointsApp.setupEvents();
+    if (window.NeikeApp) window.NeikeApp.setupEvents();
 });
