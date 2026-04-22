@@ -1,6 +1,6 @@
 const fs = require('fs');
 
-const content = fs.readFileSync('pdf_extracted.txt', 'utf8');
+const content = fs.readFileSync('../data/pdf_extracted.txt', 'utf8');
 const lines = content.split('\n');
 
 const neikeData = [];
@@ -79,5 +79,5 @@ for (let i = 0; i < lines.length; i++) {
     }
 }
 
-fs.writeFileSync('neike_data_raw.json', JSON.stringify(neikeData, null, 2));
+fs.writeFileSync('../data/neike_data_raw.json', JSON.stringify(neikeData, null, 2));
 console.log('Parsed diseases:', neikeData.map(d => d.disease).join(', '));

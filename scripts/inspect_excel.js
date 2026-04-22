@@ -17,5 +17,5 @@ function printFile(filename) {
     }
 }
 
-printFile('สรุปฝังเข็มรักษาminisek.xlsx');
-printFile('针灸题库_备份.xlsx');
+printFile('../data/สรุปฝังเข็มรักษาminisek.xlsx');
+printFile('../data/针灸题库_备份.xlsx');

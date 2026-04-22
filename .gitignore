@@ -1,13 +1,24 @@
-# Large files
-*.pdf
+# Dependencies
+node_modules/
 
-# Excel files (optional, but good to ignore backups)
-# *_备份.xlsx
+# Data files
+data/*.pdf
+# Keep other data files if needed, but usually large ones are ignored
+# data/*.xlsx
 
 # System files
 .DS_Store
 Thumbs.db
+desktop.ini
 
-# OS generated temporary files
+# IDE files
+.vscode/
+.idea/
+
+# Scripts output
+# js/data.js
+# js/acukg.js
+
+# Temporary files
 *.tmp
 *.temp

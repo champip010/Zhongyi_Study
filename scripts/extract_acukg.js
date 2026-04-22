@@ -2,7 +2,7 @@ const fs = require('fs');
 const readline = require('readline');
 const path = require('path');
 
-const baseDir = path.join(__dirname, 'AcuKG-Knowledge-graph-for-medical-acupuncture', 'AcuKG_json');
+const baseDir = path.join(__dirname, '..', 'AcuKG-Knowledge-graph-for-medical-acupuncture', 'AcuKG_json');
 
 // Helper to parse JSON line by line
 async function readJsonl(filepath, callback) {
@@ -76,7 +76,7 @@ async function main() {
 
     // Filter to list and export
     const dataList = Object.values(dict);
-    fs.writeFileSync('acukg.js', `const acuKGData = ${JSON.stringify(dataList, null, 2)};\n`);
+    fs.writeFileSync(path.join(__dirname, '..', 'js', 'acukg.js'), `const acuKGData = ${JSON.stringify(dataList, null, 2)};\n`);
     console.log(`Extracted ${dataList.length} acupoints. Saved to acukg.js`);
 }
 

@@ -8,7 +8,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const BASE = path.join(__dirname, 'AcuKG-Knowledge-graph-for-medical-acupuncture', 'AcuKG_json');
+const BASE = path.join(__dirname, '..', 'AcuKG-Knowledge-graph-for-medical-acupuncture', 'AcuKG_json');
 
 function readNDJSON(file) {
     const content = fs.readFileSync(path.join(BASE, file), 'utf-8');
@@ -120,7 +120,7 @@ if (typeof window !== 'undefined') window.acuKGData = acuKGData;
 if (typeof module !== 'undefined') module.exports = acuKGData;
 `;
 
-fs.writeFileSync(path.join(__dirname, 'acukg.js'), output, 'utf-8');
+fs.writeFileSync(path.join(__dirname, '..', 'js', 'acukg.js'), output, 'utf-8');
 console.log(`✅ Successfully written acukg.js with ${result.length} acupoints.`);
 
 // Print a preview
