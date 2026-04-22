@@ -1,0 +1,87 @@
+{
+  "test_start_time": "2025-08-29T02:03:20.476856",
+  "test_end_time": "2025-08-29T02:05:19.025428",
+  "system_build": {},
+  "search_performance": {
+    "total_queries": 10,
+    "successful_searches": 10,
+    "search_times": [
+      6.132116794586182,
+      4.676031589508057,
+      5.372531175613403,
+      5.172282695770264,
+      5.42012619972229,
+      2.3123726844787598,
+      2.8804149627685547,
+      5.399405002593994,
+      2.5260748863220215,
+      5.147840976715088
+    ],
+    "hybrid_times": [
+      1.143089771270752,
+      0.6427211761474609,
+      0.6699252128601074,
+      0.6798911094665527,
+      0.6734194755554199,
+      0.7219526767730713,
+      0.7017507553100586,
+      0.7747108936309814,
+      0.7210714817047119,
+      0.6901216506958008
+    ],
+    "doc_counts": [
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5
+    ],
+    "avg_search_time": 4.503919696807861,
+    "avg_hybrid_time": 0.7418654203414917
+  },
+  "qdrant_direct": {
+    "init_time": 1.489788293838501,
+    "query_time": 1.197685718536377,
+    "success": true,
+    "error": null
+  },
+  "memory_usage": {
+    "system_memory": {
+      "total_gb": 503.32720947265625,
+      "available_gb": 455.45838928222656,
+      "usage_percent": 9.5
+    },
+    "gpu_memory": {
+      "gpu_0": {
+        "name": "NVIDIA GeForce RTX 4090",
+        "allocated_gb": 0.0,
+        "cached_gb": 0.0
+      },
+      "gpu_1": {
+        "name": "NVIDIA GeForce RTX 4090",
+        "allocated_gb": 1.2206077575683594,
+        "cached_gb": 1.24609375
+      },
+      "gpu_2": {
+        "name": "NVIDIA GeForce RTX 4090",
+        "allocated_gb": 3.306375026702881,
+        "cached_gb": 3.755859375
+      },
+      "gpu_3": {
+        "name": "NVIDIA GeForce RTX 4090",
+        "allocated_gb": 0.0,
+        "cached_gb": 0.0
+      }
+    }
+  },
+  "summary": {
+    "final_doc_count": 94927,
+    "total_test_time_seconds": 119.02190113067627,
+    "total_test_time_minutes": 1.9836983521779379
+  }
+}

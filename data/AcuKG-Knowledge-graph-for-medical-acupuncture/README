@@ -1,0 +1,63 @@
+# **AcuKG: Acupuncture Knowledge Graph**
+
+## **Overview**
+AcuKG is a structured and scalable acupuncture knowledge graph that integrates diverse data sources to enhance the accessibility, discoverability, and application of acupuncture knowledge. By leveraging structured domain knowledge, AcuKG supports clinical decision-making, evidence-based acupuncture research, and the integration of acupuncture with modern digital healthcare tools.
+
+## **Features**
+- **Comprehensive Knowledge Integration**: AcuKG consolidates information from authoritative sources, including acupuncture textbooks, official websites, clinical trials, and biomedical literature.
+- **Standardized Representation**: Utilizes anatomical ontologies such as UBERON and SNOMED-CT for consistent classification of acupuncture points.
+- **Enhanced Queryability**: Enables efficient retrieval of relationships between acupoints, anatomical structures, and therapeutic indications.
+- **Clinical Decision Support**: Facilitates personalized treatment recommendations based on structured knowledge.
+
+## **Data Files**
+AcuKG is built from multiple data sources, structured into CSV files:
+
+| File Name            | Description |
+|----------------------|-------------|
+| `Action_target.csv`  | Mapping of acupoints to their therapeutic actions and target organs. |
+| `Chinesename.csv`    | Traditional Chinese names for acupuncture points. |
+| `Clinicaltrial.csv`  | Acupuncture-related clinical trial data for acupoints. |
+| `direction_of.csv`   | Directional relationships between acupoints and anatomy. |
+| `distance_of.csv`    | Distance-based relationships between acupuncture points and anatomy. |
+| `Indication.csv`     | Indications for acupuncture treatment mapped to acupoints. |
+| `located_near.csv`   | Spatial proximity relationships among acupoints and anatomy. |
+| `near_acupoint.csv`  | Nearby acupuncture points in relation to each other. |
+| `part_of.csv`        | Hierarchical relationships of acupoints within anatomical structures. |
+| `pinyinname.csv`     | Pinyin transliterations of acupuncture point names. |
+| `PubMed.csv`         | Conditions of acupoints to PubMed articles. |
+
+## **Data Statistics**
+## Entity Statistics
+
+| Entity              | Number of Entities |
+|---------------------|-------------------|
+| Acupoint           | 361/1839 (%)       |
+| Action Target      | 230/1839 (%)       |
+| Indication        | 447/1839 (%)       |
+| Anatomical Location | 404/1839 (%)      |
+| Condition          | 397/1839 (%)       |
+
+## Relation Type Statistics
+
+| Relation Type                     | Number of Relations  |
+|------------------------------------|----------------------|
+| direction_of (subtype = 181)      | 812/11527 (%)       |
+| part_of (subtype = 143)           | 526/11527 (%)       |
+| distance_of (subtype = 28)        | 302/11527 (%)       |
+| near_acupoint                     | 191/11527 (%)       |
+| located_near                      | 1127/11527 (%)      |
+| has_clinicaltrials                | 4305/11527 (%)      |
+| has_pubmed                        | 469/11527 (%)       |
+| treats                            | 2362/11527 (%)      |
+| has_target (subtype = 80)         | 1433/11527 (%)      |
+
+
+
+## **Applications**
+- **Clinical Decision Support**: AcuKG helps practitioners identify effective acupoints for specific conditions based on evidence-based insights.
+- **Medical Knowledge Integration**: Provides interoperability with standardized medical ontologies for broader healthcare applications.
+
+## **Please Cite**
+Yiming Li, Xueqing Peng, Suyuan Peng, Jianfu Li, Donghong Pei, Qin Zhang, Yiwei Lu, Yan Hu, Fang Li, Li Zhou, Yongqun He, Cui Tao, Hua Xu, Na Hong, AcuKG: a comprehensive knowledge graph for medical acupuncture, Journal of the American Medical Informatics Association, 2025;, ocaf179, https://doi.org/10.1093/jamia/ocaf179
+
+

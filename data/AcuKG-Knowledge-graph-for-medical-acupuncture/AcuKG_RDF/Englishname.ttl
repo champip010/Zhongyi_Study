@@ -1,0 +1,1446 @@
+@prefix acu: <http://example.org/acupuncture/> .
+
+<http://example.org/acupuncture/Englishname/record1> acu:Acupoint_Code "CV1" ;
+    acu:English_Name " Meeting of Yin													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record10> acu:Acupoint_Code "CV18" ;
+    acu:English_Name " Jade Hall													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record100> acu:Acupoint_Code "HE4" ;
+    acu:English_Name " Mind (Sprit) Path													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record101> acu:Acupoint_Code "HE5" ;
+    acu:English_Name " Inner Communication													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record102> acu:Acupoint_Code "HE6" ;
+    acu:English_Name " Yin Accumulation (Yin Cleft)													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record103> acu:Acupoint_Code "HE7" ;
+    acu:English_Name " Mind Door (Spirit Gate)													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record104> acu:Acupoint_Code "HE8" ;
+    acu:English_Name " Lesser Yin Mansion													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record105> acu:Acupoint_Code "HE9" ;
+    acu:English_Name " Lesser Yin Rushing													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record106> acu:Acupoint_Code "KI1" ;
+    acu:English_Name " Bubbling Spring													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record107> acu:Acupoint_Code "KI10" ;
+    acu:English_Name " Yin Valley													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record108> acu:Acupoint_Code "KI11" ;
+    acu:English_Name " Pubic Bone													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record109> acu:Acupoint_Code "KI12" ;
+    acu:English_Name " Great Manifestation													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record11> acu:Acupoint_Code "CV19" ;
+    acu:English_Name " Purple Palace													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record110> acu:Acupoint_Code "KI13" ;
+    acu:English_Name " Qi Hole													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record111> acu:Acupoint_Code "KI14" ;
+    acu:English_Name " Fourfold Fullness													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record112> acu:Acupoint_Code "KI15" ;
+    acu:English_Name " Central Flow													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record113> acu:Acupoint_Code "KI16" ;
+    acu:English_Name " Vitals (Kidney Region)													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record114> acu:Acupoint_Code "KI17" ;
+    acu:English_Name " Shang (Intestine) Bend													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record115> acu:Acupoint_Code "KI18" ;
+    acu:English_Name " Stone Gate													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record116> acu:Acupoint_Code "KI19" ;
+    acu:English_Name " Yin Metropolis													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record117> acu:Acupoint_Code "KI2" ;
+    acu:English_Name " Blazing Balley													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record118> acu:Acupoint_Code "KI20" ;
+    acu:English_Name " Open Valley													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record119> acu:Acupoint_Code "KI21" ;
+    acu:English_Name " Dark Gate													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record12> acu:Acupoint_Code "CV2" ;
+    acu:English_Name " Curved Bone													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record120> acu:Acupoint_Code "KI22" ;
+    acu:English_Name " Corridor Walk													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record121> acu:Acupoint_Code "KI23" ;
+    acu:English_Name " Mind (Spirit) Seal													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record122> acu:Acupoint_Code "KI24" ;
+    acu:English_Name " Spirit Burial-Ground (Ruins)													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record123> acu:Acupoint_Code "KI25" ;
+    acu:English_Name " Mind (Spirit) Storehouse													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record124> acu:Acupoint_Code "KI26" ;
+    acu:English_Name " Lively Center													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record125> acu:Acupoint_Code "KI27" ;
+    acu:English_Name " Shu Mansion													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record126> acu:Acupoint_Code "KI3" ;
+    acu:English_Name " Great Stream (Ravine)													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record127> acu:Acupoint_Code "KI4" ;
+    acu:English_Name " Big Bell (Large Goblet)													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record128> acu:Acupoint_Code "KI5" ;
+    acu:English_Name " Water Spring													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record129> acu:Acupoint_Code "KI6" ;
+    acu:English_Name " Shining Sea													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record13> acu:Acupoint_Code "CV20" ;
+    acu:English_Name " Floral Canopy													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record130> acu:Acupoint_Code "KI7" ;
+    acu:English_Name " Returning Current (Recover Flow)													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record131> acu:Acupoint_Code "KI8" ;
+    acu:English_Name " Meeting the Spleen Channel													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record132> acu:Acupoint_Code "KI9" ;
+    acu:English_Name " Guest Building													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record133> acu:Acupoint_Code "LI1" ;
+    acu:English_Name " Metal Yang													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record134> acu:Acupoint_Code "LI10" ;
+    acu:English_Name " Arm Three Miles													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record135> acu:Acupoint_Code "LI11" ;
+    acu:English_Name " Crooked Pond (Pool at the Bend)													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record136> acu:Acupoint_Code "LI12" ;
+    acu:English_Name " Elbow Seam (Elbow Bone-Hole)													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record137> acu:Acupoint_Code "LI13" ;
+    acu:English_Name " Five Li (Arm)													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record138> acu:Acupoint_Code "LI14" ;
+    acu:English_Name " Arm and Scapula (Upper Arm)													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record139> acu:Acupoint_Code "LI15" ;
+    acu:English_Name " Shoulder Transporting Point (Shoulder Bone)													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record14> acu:Acupoint_Code "CV21" ;
+    acu:English_Name " Jade Pivot													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record140> acu:Acupoint_Code "LI16" ;
+    acu:English_Name " Great Bone													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record141> acu:Acupoint_Code "LI17" ;
+    acu:English_Name " Celestial Tripod													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record142> acu:Acupoint_Code "LI18" ;
+    acu:English_Name "  Support the Prominence													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record143> acu:Acupoint_Code "LI19" ;
+    acu:English_Name " Grain Bone-Hole													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record144> acu:Acupoint_Code "LI2" ;
+    acu:English_Name " Second Interval													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record145> acu:Acupoint_Code "LI20" ;
+    acu:English_Name " Welcome Fragrance													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record146> acu:Acupoint_Code "LI3" ;
+    acu:English_Name " Third Interval													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record147> acu:Acupoint_Code "LI4" ;
+    acu:English_Name " Joining (Union) Valley													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record148> acu:Acupoint_Code "LI5" ;
+    acu:English_Name " Yang Stream (Ravine)													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record149> acu:Acupoint_Code "LI6" ;
+    acu:English_Name " Slanting (Veering) Passage													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record15> acu:Acupoint_Code "CV22" ;
+    acu:English_Name " Heaven Projectio (Celestial Chimney)													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record150> acu:Acupoint_Code "LI7" ;
+    acu:English_Name " Warm Flow (Warm Dwelling)													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record151> acu:Acupoint_Code "LI8" ;
+    acu:English_Name " Lower Corner (Ridge)													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record152> acu:Acupoint_Code "LI9" ;
+    acu:English_Name " Upper Corner (Ridge)													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record153> acu:Acupoint_Code "LR1" ;
+    acu:English_Name " Big Thick (Large Pile)													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record154> acu:Acupoint_Code "LR10" ;
+    acu:English_Name " Five Li (Foot)													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record155> acu:Acupoint_Code "LR11" ;
+    acu:English_Name " Yin Corner													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record156> acu:Acupoint_Code "LR12" ;
+    acu:English_Name " Urgent Pulse													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record157> acu:Acupoint_Code "LR13" ;
+    acu:English_Name " Camphorwood Gate													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record158> acu:Acupoint_Code "LR14" ;
+    acu:English_Name " Cycle (Cyclic) Gate													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record159> acu:Acupoint_Code "LR2" ;
+    acu:English_Name "Xingjian" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record16> acu:Acupoint_Code "CV23" ;
+    acu:English_Name " Corner (Ridge) Spring													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record160> acu:Acupoint_Code "LR3" ;
+    acu:English_Name " Bigger Rushing (Great Surge)													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record161> acu:Acupoint_Code "LR4" ;
+    acu:English_Name " Middle Seal (Mound Center)													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record162> acu:Acupoint_Code "LR5" ;
+    acu:English_Name " Gourd Ditch (Woodworm Canal)													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record163> acu:Acupoint_Code "LR6" ;
+    acu:English_Name " Middle Capital													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record164> acu:Acupoint_Code "LR7" ;
+    acu:English_Name " Knee Gate (Knee Joint)													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record165> acu:Acupoint_Code "LR8" ;
+    acu:English_Name " Spring at the Bend													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record166> acu:Acupoint_Code "LR9" ;
+    acu:English_Name " Yin Bladder													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record167> acu:Acupoint_Code "LU1" ;
+    acu:English_Name " Central Residence (Treasury)													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record168> acu:Acupoint_Code "LU10" ;
+    acu:English_Name " Fish Border													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record169> acu:Acupoint_Code "LU11" ;
+    acu:English_Name " Lesser Metal (Shang)													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record17> acu:Acupoint_Code "CV24" ;
+    acu:English_Name " Saliva (Sauce) Receiver													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record170> acu:Acupoint_Code "LU2" ;
+    acu:English_Name " Cloud Door													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record171> acu:Acupoint_Code "LU3" ;
+    acu:English_Name " Heavenly Residence (Celestial Storehouse)													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record172> acu:Acupoint_Code "LU4" ;
+    acu:English_Name " Standing by White (Guarding White)													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record173> acu:Acupoint_Code "LU5" ;
+    acu:English_Name " Foot Marsh (Cubit Marsh)													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record174> acu:Acupoint_Code "LU6" ;
+    acu:English_Name " Biggest Hole (Collection Hole)													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record175> acu:Acupoint_Code "LU7" ;
+    acu:English_Name " Broken Sequence													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record176> acu:Acupoint_Code "LU8" ;
+    acu:English_Name " Channel Canal (Ditch)													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record177> acu:Acupoint_Code "LU9" ;
+    acu:English_Name " Great Abyss													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record178> acu:Acupoint_Code "PC1" ;
+    acu:English_Name " Heavenly Pond													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record179> acu:Acupoint_Code "PC2" ;
+    acu:English_Name " Celestial Spring													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record18> acu:Acupoint_Code "CV3" ;
+    acu:English_Name " Middle Extremity (Central Pole)													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record180> acu:Acupoint_Code "PC3" ;
+    acu:English_Name " Marsh at the Bend													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record181> acu:Acupoint_Code "PC4" ;
+    acu:English_Name " Xi-Cleft Door													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record182> acu:Acupoint_Code "PC5" ;
+    acu:English_Name " Intermediary Messenger													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record183> acu:Acupoint_Code "PC6" ;
+    acu:English_Name " Inner Gate													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record184> acu:Acupoint_Code "PC7" ;
+    acu:English_Name " Great Hill													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record185> acu:Acupoint_Code "PC8" ;
+    acu:English_Name " Labor Palace													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record186> acu:Acupoint_Code "PC9" ;
+    acu:English_Name " Central Hub													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record187> acu:Acupoint_Code "SI1" ;
+    acu:English_Name " Lesser Marsh													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record188> acu:Acupoint_Code "SI10" ;
+    acu:English_Name " Humerus Transporting Point (Upper Arm Point)													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record189> acu:Acupoint_Code "SI11" ;
+    acu:English_Name " Heavenly Gathering													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record19> acu:Acupoint_Code "CV4" ;
+    acu:English_Name " Gate to the Original Qi													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record190> acu:Acupoint_Code "SI12" ;
+    acu:English_Name " Grasping Wind													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record191> acu:Acupoint_Code "SI13" ;
+    acu:English_Name " Crooked Wall													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record192> acu:Acupoint_Code "SI14" ;
+    acu:English_Name " Outer Shoulder Shu													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record193> acu:Acupoint_Code "SI15" ;
+    acu:English_Name " Central Shoulder Shu													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record194> acu:Acupoint_Code "SI16" ;
+    acu:English_Name " Celestial Window													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record195> acu:Acupoint_Code "SI17" ;
+    acu:English_Name " Heaven Appearance													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record196> acu:Acupoint_Code "SI18" ;
+    acu:English_Name " Zygoma Crevice													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record197> acu:Acupoint_Code "SI19" ;
+    acu:English_Name " Listening Palace													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record198> acu:Acupoint_Code "SI2" ;
+    acu:English_Name " Front Valley													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record199> acu:Acupoint_Code "SI3" ;
+    acu:English_Name " Back Stream (Ravine)													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record2> acu:Acupoint_Code "CV10" ;
+    acu:English_Name " Lower Epigastrium													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record20> acu:Acupoint_Code "CV5" ;
+    acu:English_Name " Stone Door													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record200> acu:Acupoint_Code "SI4" ;
+    acu:English_Name " Wrist Bone													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record201> acu:Acupoint_Code "SI5" ;
+    acu:English_Name " Yang Valley													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record202> acu:Acupoint_Code "SI6" ;
+    acu:English_Name " Nourishing the Old													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record203> acu:Acupoint_Code "SI7" ;
+    acu:English_Name " Branch to Heart Channel													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record204> acu:Acupoint_Code "SI8" ;
+    acu:English_Name " Small Intestine Sea													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record205> acu:Acupoint_Code "SI9" ;
+    acu:English_Name " Upright Shoulder													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record206> acu:Acupoint_Code "TE1" ;
+    acu:English_Name " Gate Hub													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record207> acu:Acupoint_Code "TE10" ;
+    acu:English_Name " Heavenly (Celestial) Well													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record208> acu:Acupoint_Code "TE11" ;
+    acu:English_Name " Clear Cold Abyss													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record209> acu:Acupoint_Code "TE12" ;
+    acu:English_Name " Dispersing Riverbed													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record21> acu:Acupoint_Code "CV6" ;
+    acu:English_Name " Sea of Qi													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record210> acu:Acupoint_Code "TE13" ;
+    acu:English_Name " Shoulder (Upper Arm) Convergence													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record211> acu:Acupoint_Code "TE14" ;
+    acu:English_Name " Shoulder Crevice (Bone-Hole)													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record212> acu:Acupoint_Code "TE15" ;
+    acu:English_Name " HeavenlY Crevice (Bone-Hole)													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record213> acu:Acupoint_Code "TE16" ;
+    acu:English_Name " Celestial Oriole													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record214> acu:Acupoint_Code "TE17" ;
+    acu:English_Name " Wind Screen													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record215> acu:Acupoint_Code "TE18" ;
+    acu:English_Name " Spasm Vessel													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record216> acu:Acupoint_Code "TE19" ;
+    acu:English_Name " Resting the Skull													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record217> acu:Acupoint_Code "TE2" ;
+    acu:English_Name " Fluid Gate													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record218> acu:Acupoint_Code "TE20" ;
+    acu:English_Name " Minute Angle (Angel Vertex)													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record219> acu:Acupoint_Code "TE21" ;
+    acu:English_Name " Ear Door													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record22> acu:Acupoint_Code "CV7" ;
+    acu:English_Name " Yin Crossing													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record220> acu:Acupoint_Code "TE22" ;
+    acu:English_Name " Harmony Bone-Hole													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record221> acu:Acupoint_Code "TE23" ;
+    acu:English_Name " Silk Bamboo Hole													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record222> acu:Acupoint_Code "TE3" ;
+    acu:English_Name " Middle Islet													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record223> acu:Acupoint_Code "TE4" ;
+    acu:English_Name " Yang Pond (Pool)													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record224> acu:Acupoint_Code "TE5" ;
+    acu:English_Name " Outer Gate (Pass)													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record225> acu:Acupoint_Code "TE6" ;
+    acu:English_Name " Branching Ditch													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record226> acu:Acupoint_Code "TE7" ;
+    acu:English_Name " Converging Channels													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record227> acu:Acupoint_Code "TE8" ;
+    acu:English_Name " Three Yang Connection (Proximity Only)													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record228> acu:Acupoint_Code "TE9" ;
+    acu:English_Name " Four Rivers													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record229> acu:Acupoint_Code "SP1" ;
+    acu:English_Name " Hidden White													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record23> acu:Acupoint_Code "CV8" ;
+    acu:English_Name " Mind Palace (Spirit Gate)													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record230> acu:Acupoint_Code "SP10" ;
+    acu:English_Name " Sea of Blood													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record231> acu:Acupoint_Code "SP11" ;
+    acu:English_Name " Winnower Gate													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record232> acu:Acupoint_Code "SP12" ;
+    acu:English_Name " Rushing Door (Surging Gate)													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record233> acu:Acupoint_Code "SP13" ;
+    acu:English_Name " Bowel Residence													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record234> acu:Acupoint_Code "SP14" ;
+    acu:English_Name " Abdominal Bind													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record235> acu:Acupoint_Code "SP15" ;
+    acu:English_Name " Big Horizontal Stroke													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record236> acu:Acupoint_Code "SP16" ;
+    acu:English_Name " Abdominal Lament													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record237> acu:Acupoint_Code "SP17" ;
+    acu:English_Name " Food Hole													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record238> acu:Acupoint_Code "SP18" ;
+    acu:English_Name " Celestial Gully Stream													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record239> acu:Acupoint_Code "SP19" ;
+    acu:English_Name " Chest Village													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record24> acu:Acupoint_Code "CV9" ;
+    acu:English_Name " Water Separation													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record240> acu:Acupoint_Code "SP2" ;
+    acu:English_Name " Big Capital (Great Metropolis)													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record241> acu:Acupoint_Code "SP20" ;
+    acu:English_Name " All-Round Flourishing													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record242> acu:Acupoint_Code "SP21" ;
+    acu:English_Name " General Control (Great Embracement)													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record243> acu:Acupoint_Code "SP3" ;
+    acu:English_Name " Greater (Supreme) White													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record244> acu:Acupoint_Code "SP4" ;
+    acu:English_Name " Yellow Emperor													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record245> acu:Acupoint_Code "SP5" ;
+    acu:English_Name " Gold (or Metal) Mound													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record246> acu:Acupoint_Code "SP6" ;
+    acu:English_Name " Three Yin Meeting													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record247> acu:Acupoint_Code "SP7" ;
+    acu:English_Name " Leaking Valley													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record248> acu:Acupoint_Code "SP8" ;
+    acu:English_Name " Earth's Pivot													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record249> acu:Acupoint_Code "SP9" ;
+    acu:English_Name " Yin Mound Spring													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record25> acu:Acupoint_Code "GB1" ;
+    acu:English_Name " Pupil Crevice (Bone Hole)													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record250> acu:Acupoint_Code "ST1" ;
+    acu:English_Name " Containing Tears													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record251> acu:Acupoint_Code "ST10" ;
+    acu:English_Name " Water Prominence													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record252> acu:Acupoint_Code "ST11" ;
+    acu:English_Name " Qi Abode													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record253> acu:Acupoint_Code "ST12" ;
+    acu:English_Name " Empty Basin													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record254> acu:Acupoint_Code "ST13" ;
+    acu:English_Name " Qi Door													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record255> acu:Acupoint_Code "ST14" ;
+    acu:English_Name " Storeroom													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record256> acu:Acupoint_Code "ST15" ;
+    acu:English_Name " Roof													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record257> acu:Acupoint_Code "ST16" ;
+    acu:English_Name " Breast Window													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record258> acu:Acupoint_Code "ST17" ;
+    acu:English_Name " Breast Center													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record259> acu:Acupoint_Code "ST18" ;
+    acu:English_Name " Breast Root													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record26> acu:Acupoint_Code "GB10" ;
+    acu:English_Name " Floating White													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record260> acu:Acupoint_Code "ST19" ;
+    acu:English_Name " Not Contained													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record261> acu:Acupoint_Code "ST2" ;
+    acu:English_Name " Four Whites													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record262> acu:Acupoint_Code "ST20" ;
+    acu:English_Name " Assuming Fullness													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record263> acu:Acupoint_Code "ST21" ;
+    acu:English_Name " Beam Door (Gate)													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record264> acu:Acupoint_Code "ST22" ;
+    acu:English_Name " Pass Gate													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record265> acu:Acupoint_Code "ST23" ;
+    acu:English_Name " Supreme Unity													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record266> acu:Acupoint_Code "ST24" ;
+    acu:English_Name " Slippery Flesh Gate													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record267> acu:Acupoint_Code "ST25" ;
+    acu:English_Name " Heavenly Pillar (Celestial Pivot)													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record268> acu:Acupoint_Code "ST26" ;
+    acu:English_Name " Outer Mound													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record269> acu:Acupoint_Code "ST27" ;
+    acu:English_Name " Big Great (Great Gigantic)													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record27> acu:Acupoint_Code "GB11" ;
+    acu:English_Name " Head Portal Yin													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record270> acu:Acupoint_Code "ST28" ;
+    acu:English_Name " Water Passage													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record271> acu:Acupoint_Code "ST29" ;
+    acu:English_Name " Return													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record272> acu:Acupoint_Code "ST3" ;
+    acu:English_Name " Large Opening (Great Bone Hole)													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record273> acu:Acupoint_Code "ST30" ;
+    acu:English_Name " Penetrating (Surging) Qi													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record274> acu:Acupoint_Code "ST31" ;
+    acu:English_Name " Thigh Gate (Joint)													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record275> acu:Acupoint_Code "ST32" ;
+    acu:English_Name " Hidden (Crouching) Rabbit													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record276> acu:Acupoint_Code "ST33" ;
+    acu:English_Name " Yin Market													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record277> acu:Acupoint_Code "ST34" ;
+    acu:English_Name " Beam Mound (Hill)													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record278> acu:Acupoint_Code "ST35" ;
+    acu:English_Name " Calf Nose (Nostril)													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record279> acu:Acupoint_Code "ST36" ;
+    acu:English_Name " Three Miles of the Foot													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record28> acu:Acupoint_Code "GB12" ;
+    acu:English_Name " Completion Bone													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record280> acu:Acupoint_Code "ST37" ;
+    acu:English_Name " Upper Great Emptiness													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record281> acu:Acupoint_Code "ST38" ;
+    acu:English_Name " Narrow (Ribbon) Opening													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record282> acu:Acupoint_Code "ST39" ;
+    acu:English_Name " Lower Great Emptiness													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record283> acu:Acupoint_Code "ST4" ;
+    acu:English_Name " Earth Grainery													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record284> acu:Acupoint_Code "ST40" ;
+    acu:English_Name " Abundant Bulge													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record285> acu:Acupoint_Code "ST41" ;
+    acu:English_Name " Dispersing Stream (Ravine Divide)													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record286> acu:Acupoint_Code "ST42" ;
+    acu:English_Name " Rushing (Surging) Yang													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record287> acu:Acupoint_Code "ST43" ;
+    acu:English_Name " Sinking Valley													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record288> acu:Acupoint_Code "ST44" ;
+    acu:English_Name " Inner Courtyard													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record289> acu:Acupoint_Code "ST45" ;
+    acu:English_Name " Sick (Severe) Mouth													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record29> acu:Acupoint_Code "GB13" ;
+    acu:English_Name " Mind (Spirit) Root													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record290> acu:Acupoint_Code "ST5" ;
+    acu:English_Name " Big Welcome (Great Reception)													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record291> acu:Acupoint_Code "ST6" ;
+    acu:English_Name " Jaw Chariot (Bone)													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record292> acu:Acupoint_Code "ST7" ;
+    acu:English_Name " Lower Gate (Below the Joint)													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record293> acu:Acupoint_Code "ST8" ;
+    acu:English_Name " Head Support (Corner)													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record294> acu:Acupoint_Code "ST9" ;
+    acu:English_Name " Person's Outcome (Man's Prognosis)													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record295> acu:Acupoint_Code "BL1" ;
+    acu:English_Name " Eye Brightness (Bright Eyes)													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record296> acu:Acupoint_Code "BL10" ;
+    acu:English_Name " Heaven's (Celestial) Pillar													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record297> acu:Acupoint_Code "BL11" ;
+    acu:English_Name " Big Reed (Great Shuttle)													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record298> acu:Acupoint_Code "BL12" ;
+    acu:English_Name " Wind Door (Gate)													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record299> acu:Acupoint_Code "BL13" ;
+    acu:English_Name " Lung's Hollow													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record3> acu:Acupoint_Code "CV11" ;
+    acu:English_Name " Building Mile (Interior Strengthening)													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record30> acu:Acupoint_Code "GB14" ;
+    acu:English_Name " Yang White													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record300> acu:Acupoint_Code "BL14" ;
+    acu:English_Name " Absolute Yin (Jue Yin) Hollow													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record301> acu:Acupoint_Code "BL15" ;
+    acu:English_Name " Heart's Hollow													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record302> acu:Acupoint_Code "BL16" ;
+    acu:English_Name " Governing Hollow													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record303> acu:Acupoint_Code "BL17" ;
+    acu:English_Name " Diaphragm's Hollow													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record304> acu:Acupoint_Code "BL18" ;
+    acu:English_Name " Liver's Hollow													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record305> acu:Acupoint_Code "BL19" ;
+    acu:English_Name " Gall Bladder's Hollow													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record306> acu:Acupoint_Code "BL2" ;
+    acu:English_Name " Collecting Bamboo													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record307> acu:Acupoint_Code "BL20" ;
+    acu:English_Name " Spleen's Hollow													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record308> acu:Acupoint_Code "BL21" ;
+    acu:English_Name " Stomach's Hollow													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record309> acu:Acupoint_Code "BL22" ;
+    acu:English_Name " Triple Burner's Hollow													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record31> acu:Acupoint_Code "GB15" ;
+    acu:English_Name " Falling Tears (Head Overlooking Tears)													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record310> acu:Acupoint_Code "BL23" ;
+    acu:English_Name " Kidney's Hollow													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record311> acu:Acupoint_Code "BL24" ;
+    acu:English_Name " Sea-of-Qi Shu													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record312> acu:Acupoint_Code "BL25" ;
+    acu:English_Name " Large Intestine's Hollow													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record313> acu:Acupoint_Code "BL26" ;
+    acu:English_Name " Gates of Origin													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record314> acu:Acupoint_Code "BL27" ;
+    acu:English_Name " Small Intestine's Hollow													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record315> acu:Acupoint_Code "BL28" ;
+    acu:English_Name " Bladder's Hollow													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record316> acu:Acupoint_Code "BL29" ;
+    acu:English_Name " Central Spine Hollow													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record317> acu:Acupoint_Code "BL3" ;
+    acu:English_Name " Eyebrow Ascension													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record318> acu:Acupoint_Code "BL30" ;
+    acu:English_Name " White Ring Hollow													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record319> acu:Acupoint_Code "BL31" ;
+    acu:English_Name " Upper Crevice (Upper Bone Hole)													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record32> acu:Acupoint_Code "GB16" ;
+    acu:English_Name " Eye Window													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record320> acu:Acupoint_Code "BL32" ;
+    acu:English_Name " Second Crevice (Second Bone Hole)													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record321> acu:Acupoint_Code "BL33" ;
+    acu:English_Name " Central Crevice (Bone-Hole)													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record322> acu:Acupoint_Code "BL34" ;
+    acu:English_Name " Lower Crevice													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record323> acu:Acupoint_Code "BL35" ;
+    acu:English_Name " Meeting of Yang													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record324> acu:Acupoint_Code "BL36" ;
+    acu:English_Name " Receiving Support													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record325> acu:Acupoint_Code "BL37" ;
+    acu:English_Name " Huge Gate (Gate of Abundance)													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record326> acu:Acupoint_Code "BL38" ;
+    acu:English_Name " Superficial Cleft													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record327> acu:Acupoint_Code "BL39" ;
+    acu:English_Name " Supporting Yang (Bent Yang)													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record328> acu:Acupoint_Code "BL4" ;
+    acu:English_Name " Deviating Turn													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record329> acu:Acupoint_Code "BL40" ;
+    acu:English_Name " Supporting Middle (Bent Middle)													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record33> acu:Acupoint_Code "GB17" ;
+    acu:English_Name " Upright Construction													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record330> acu:Acupoint_Code "BL41" ;
+    acu:English_Name " Attached Branch													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record331> acu:Acupoint_Code "BL42" ;
+    acu:English_Name " Door of the Corporeal Soul (Po)													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record332> acu:Acupoint_Code "BL43" ;
+    acu:English_Name " Vitals (Area below the Heart)													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record333> acu:Acupoint_Code "BL44" ;
+    acu:English_Name " Mind Hall (Spirit Hall)													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record334> acu:Acupoint_Code "BL45" ;
+    acu:English_Name " Yi Xi (Laughing Sound)													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record335> acu:Acupoint_Code "BL46" ;
+    acu:English_Name " Diaphragm's Pass													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record336> acu:Acupoint_Code "BL47" ;
+    acu:English_Name " Door of the Etheral Soul (Hun)													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record337> acu:Acupoint_Code "BL48" ;
+    acu:English_Name " Yang Headrope													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record338> acu:Acupoint_Code "BL49" ;
+    acu:English_Name " Thought Shelter (Reflection Abode)													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record339> acu:Acupoint_Code "BL5" ;
+    acu:English_Name " Five Places (Fifth Place)													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record34> acu:Acupoint_Code "GB18" ;
+    acu:English_Name " Spirit Receiver													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record340> acu:Acupoint_Code "BL50" ;
+    acu:English_Name " Stomach Grainery													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record341> acu:Acupoint_Code "BL51" ;
+    acu:English_Name " Vitals Door (Gate)													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record342> acu:Acupoint_Code "BL52" ;
+    acu:English_Name " Will Power Chamber													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record343> acu:Acupoint_Code "BL53" ;
+    acu:English_Name " Bladder Vitals													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record344> acu:Acupoint_Code "BL54" ;
+    acu:English_Name " Lowermost Edge													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record345> acu:Acupoint_Code "BL55" ;
+    acu:English_Name " Yang Union													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record346> acu:Acupoint_Code "BL56" ;
+    acu:English_Name " Sinew Supporter													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record347> acu:Acupoint_Code "BL57" ;
+    acu:English_Name " Supporting Mountain													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record348> acu:Acupoint_Code "BL58" ;
+    acu:English_Name " Flying Up (Taking Flight)													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record349> acu:Acupoint_Code "BL59" ;
+    acu:English_Name " Instep Yang													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record35> acu:Acupoint_Code "GB19" ;
+    acu:English_Name " Brain Hollow													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record350> acu:Acupoint_Code "BL6" ;
+    acu:English_Name " Light Guard													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record351> acu:Acupoint_Code "BL60" ;
+    acu:English_Name " Kunlun Mountains													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record352> acu:Acupoint_Code "BL61" ;
+    acu:English_Name " Subservient Visitor													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record353> acu:Acupoint_Code "BL62" ;
+    acu:English_Name " Ninth Channel (Extending Vessel)													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record354> acu:Acupoint_Code "BL63" ;
+    acu:English_Name " Golden Door													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record355> acu:Acupoint_Code "BL64" ;
+    acu:English_Name " Capital Bone													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record356> acu:Acupoint_Code "BL65" ;
+    acu:English_Name " Blinding Bone													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record357> acu:Acupoint_Code "BL66" ;
+    acu:English_Name " Passing Valley													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record358> acu:Acupoint_Code "BL67" ;
+    acu:English_Name " Reaching Yin													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record359> acu:Acupoint_Code "BL7" ;
+    acu:English_Name " Reaching Heaven (Celestial Connection)													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record36> acu:Acupoint_Code "GB2" ;
+    acu:English_Name " Hearing Convergence													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record360> acu:Acupoint_Code "BL8" ;
+    acu:English_Name " Declining Connection													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record361> acu:Acupoint_Code "BL9" ;
+    acu:English_Name " Jade Pillow													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record37> acu:Acupoint_Code "GB20" ;
+    acu:English_Name " Wind Pond													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record38> acu:Acupoint_Code "GB21" ;
+    acu:English_Name " Shoulder Well													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record39> acu:Acupoint_Code "GB22" ;
+    acu:English_Name " Armpit Abyss													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record4> acu:Acupoint_Code "CV12" ;
+    acu:English_Name " Middle of Epigastrium													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record40> acu:Acupoint_Code "GB23" ;
+    acu:English_Name " Sinew Seat													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record41> acu:Acupoint_Code "GB24" ;
+    acu:English_Name " Sun and Moon													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record42> acu:Acupoint_Code "GB25" ;
+    acu:English_Name " Capital Door													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record43> acu:Acupoint_Code "GB26" ;
+    acu:English_Name " Girdle Vessel													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record44> acu:Acupoint_Code "GB27" ;
+    acu:English_Name " Fifth Pivot													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record45> acu:Acupoint_Code "GB28" ;
+    acu:English_Name " Linking Path													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record46> acu:Acupoint_Code "GB29" ;
+    acu:English_Name " Squatting Crevice (Bone Hole)													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record47> acu:Acupoint_Code "GB3" ;
+    acu:English_Name " Upper Gate													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record48> acu:Acupoint_Code "GB30" ;
+    acu:English_Name " Jumping Circle													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record49> acu:Acupoint_Code "GB31" ;
+    acu:English_Name " Wind Market													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record5> acu:Acupoint_Code "CV13" ;
+    acu:English_Name " Upper Epigastrium (Venter)													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record50> acu:Acupoint_Code "GB32" ;
+    acu:English_Name " Central River													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record51> acu:Acupoint_Code "GB33" ;
+    acu:English_Name " Knee Yang Gate (Joint)													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record52> acu:Acupoint_Code "GB34" ;
+    acu:English_Name " Yang Hill Spring													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record53> acu:Acupoint_Code "GB35" ;
+    acu:English_Name " Yang Crossing													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record54> acu:Acupoint_Code "GB36" ;
+    acu:English_Name " Outer Mound													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record55> acu:Acupoint_Code "GB37" ;
+    acu:English_Name " Brightness (Bright Light)													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record56> acu:Acupoint_Code "GB38" ;
+    acu:English_Name " Yang Aid													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record57> acu:Acupoint_Code "GB39" ;
+    acu:English_Name " Hanging Bell													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record58> acu:Acupoint_Code "GB4" ;
+    acu:English_Name " Forehead Fullness													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record59> acu:Acupoint_Code "GB40" ;
+    acu:English_Name " Mound (Hill) Ruins													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record6> acu:Acupoint_Code "CV14" ;
+    acu:English_Name " Great Palace (Great Tower Gate)													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record60> acu:Acupoint_Code "GB41" ;
+    acu:English_Name " Foot Overlooking Tears													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record61> acu:Acupoint_Code "GB42" ;
+    acu:English_Name " Earth Fivefold Convergence													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record62> acu:Acupoint_Code "GB43" ;
+    acu:English_Name " Stream Insertion (Pinched Ravine)													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record63> acu:Acupoint_Code "GB44" ;
+    acu:English_Name " Foot Orifice (Portal) Yin													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record64> acu:Acupoint_Code "GB5" ;
+    acu:English_Name " Hanging Skull													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record65> acu:Acupoint_Code "GB6" ;
+    acu:English_Name " Deviation from Hanging Skull (Suspended Minute)													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record66> acu:Acupoint_Code "GB7" ;
+    acu:English_Name " Temporal Hairline Curve													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record67> acu:Acupoint_Code "GB8" ;
+    acu:English_Name " Leading Valley													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record68> acu:Acupoint_Code "GB9" ;
+    acu:English_Name " Penetraing Heaven (Celestial Hub)													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record69> acu:Acupoint_Code "GV1" ;
+    acu:English_Name " Long Strength (Strong)													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record7> acu:Acupoint_Code "CV15" ;
+    acu:English_Name " (Turtle) Dove Tail													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record70> acu:Acupoint_Code "GV10" ;
+    acu:English_Name " Spirit Tower													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record71> acu:Acupoint_Code "GV11" ;
+    acu:English_Name " Mind Way (Spirit Path)													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record72> acu:Acupoint_Code "GV12" ;
+    acu:English_Name " Body Pillar													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record73> acu:Acupoint_Code "GV13" ;
+    acu:English_Name " Kiln Way (Path)													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record74> acu:Acupoint_Code "GV14" ;
+    acu:English_Name " Big Vertebrae (Great Hammer)													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record75> acu:Acupoint_Code "GV15" ;
+    acu:English_Name " Mute's Gate													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record76> acu:Acupoint_Code "GV16" ;
+    acu:English_Name " Wind Palace													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record77> acu:Acupoint_Code "GV17" ;
+    acu:English_Name " Brain's Window													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record78> acu:Acupoint_Code "GV18" ;
+    acu:English_Name " Unyeilding Space													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record79> acu:Acupoint_Code "GV19" ;
+    acu:English_Name " Posterior Vertex													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record8> acu:Acupoint_Code "CV16" ;
+    acu:English_Name " Central Palace													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record80> acu:Acupoint_Code "GV2" ;
+    acu:English_Name " Lumbar Shu (Door)													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record81> acu:Acupoint_Code "GV20" ;
+    acu:English_Name " Hundred Meetings (Convergence)													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record82> acu:Acupoint_Code "GV21" ;
+    acu:English_Name " Before the Vertex													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record83> acu:Acupoint_Code "GV22" ;
+    acu:English_Name " Fontanel Meeting													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record84> acu:Acupoint_Code "GV23" ;
+    acu:English_Name " Upper Star													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record85> acu:Acupoint_Code "GV24" ;
+    acu:English_Name " Mind Courtyard (Spirit Court)													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record86> acu:Acupoint_Code "GV25" ;
+    acu:English_Name " White Bone-Hole													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record87> acu:Acupoint_Code "GV26" ;
+    acu:English_Name " Middle of Person (Water Trough)													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record88> acu:Acupoint_Code "GV27" ;
+    acu:English_Name " Extremity of the Mouth													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record89> acu:Acupoint_Code "GV28" ;
+    acu:English_Name " Gum Intersection													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record9> acu:Acupoint_Code "CV17" ;
+    acu:English_Name " Middle of Chest													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record90> acu:Acupoint_Code "GV3" ;
+    acu:English_Name " Lumbar Yange Gate													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record91> acu:Acupoint_Code "GV4" ;
+    acu:English_Name " Gate of Life													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record92> acu:Acupoint_Code "GV5" ;
+    acu:English_Name " Suspended Pivot													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record93> acu:Acupoint_Code "GV6" ;
+    acu:English_Name " Center of the Spine													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record94> acu:Acupoint_Code "GV7" ;
+    acu:English_Name " Central Pivot													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record95> acu:Acupoint_Code "GV8" ;
+    acu:English_Name " Tendon Spasm													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record96> acu:Acupoint_Code "GV9" ;
+    acu:English_Name " Reaching Yang (Extremity of Yang)													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record97> acu:Acupoint_Code "HE1" ;
+    acu:English_Name " Supreme Spring													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record98> acu:Acupoint_Code "HE2" ;
+    acu:English_Name " Blue-Green (Cyan) Spirit													" ;
+    acu:Relation "hasenglishname" .
+
+<http://example.org/acupuncture/Englishname/record99> acu:Acupoint_Code "HE3" ;
+    acu:English_Name " Lesser Yin Sea													" ;
+    acu:Relation "hasenglishname" .
+

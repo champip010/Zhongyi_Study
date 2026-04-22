@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acupuntura - Página Inicial</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Acupuntura - Base de Conhecimento</h1>
+            <nav>
+                <a href="{{ url_for('home') }}">Home</a>
+                <a href="{{ url_for('points_routes.get_points_html') }}">Pontos</a>
+                <a href="{{ url_for('points_routes.get_meridians_html') }}">Meridianos</a>
+                <a href="{{ url_for('points_routes.get_syndromes_html') }}">Síndromes</a>
+                <a href="{{ url_for('points_routes.get_western_diseases_html') }}">Acupuntura e PBE</a>
+            </nav>
+        </header>
+
+        <main>
+            <section class="welcome-section">
+                <h2>Bem-vindo à Base de Conhecimento em Acupuntura</h2>
+                <p>Esta aplicação fornece informações detalhadas sobre:</p>
+                
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <h3>Pontos de Acupuntura</h3>
+                        <p>Localização e características dos principais pontos de acupuntura.</p>
+                        <a href="{{ url_for('points_routes.get_points_html') }}" class="feature-link">Ver Pontos</a>
+                    </div>
+
+                    <div class="feature-card">
+                        <h3>Meridianos</h3>
+                        <p>Informações sobre os canais de energia do corpo.</p>
+                        <a href="{{ url_for('points_routes.get_meridians_html') }}" class="feature-link">Ver Meridianos</a>
+                    </div>
+
+                    <div class="feature-card">
+                        <h3>Síndromes</h3>
+                        <p>Padrões de desequilíbrio na medicina tradicional chinesa.</p>
+                        <a href="{{ url_for('points_routes.get_syndromes_html') }}" class="feature-link">Ver Síndromes</a>
+                    </div>
+
+                    <div class="feature-card">
+                        <h3>Acupuntura e PBE</h3>
+                        <p>Medicina Baseada em Evidências</p>
+                        <a href="{{ url_for('points_routes.get_western_diseases_html') }}" class="feature-link">Ver Evidências</a>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+</body>
+</html>
+ge

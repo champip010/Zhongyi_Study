@@ -1,0 +1,132 @@
+name: CI/CD Pipeline
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  build-and-deploy:
+    runs-on: self-hosted
+    
+    steps:
+    - name: Clean workspace
+      run: |
+        rm -rf ./* || true
+        rm -rf ./.* || true
+    
+    - uses: actions/checkout@v2
+      with:
+        clean: true
+        fetch-depth: 1
+    
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.11.4'
+        architecture: 'arm64'
+        cache: 'pip'
+    
+    - name: Install dependencies
+      run: |
+        python -m venv .venv
+        source .venv/bin/activate
+        python -m pip install --upgrade pip wheel setuptools
+        pip install --only-binary :all: numpy==1.24.3
+        pip install --only-binary :all: pandas==2.0.3
+        pip install -r requirements.txt
+    
+    - name: Start Docker
+      run: |
+        open -a Docker
+        # Wait for Docker to start
+        for i in {1..60}; do
+          if docker info > /dev/null 2>&1; then
+            echo "Docker is running"
+            break
+          fi
+          echo "Waiting for Docker... ($i/60)"
+          sleep 5
+        done
+    
+    - name: Configure Docker
+      run: |
+        # Install Docker credential helper
+        brew install docker-credential-helper
+        # Configure Docker to use plain text credentials temporarily
+        mkdir -p ~/.docker
+        echo '{ "credsStore": "" }' > ~/.docker/config.json
+        # Log in to Docker Hub without credential store
+        docker login
+        echo '{ "credsStore": "osxkeychain" }' > ~/.docker/config.json
+        
+    - name: Reset Docker
+      run: |
+        # Force stop all containers
+        docker ps -aq | xargs -r docker rm -f || true
+        
+        # Force quit Docker
+        pkill -9 Docker || true
+        pkill -9 docker || true
+        
+        # Wait to ensure Docker is fully stopped
+        sleep 10
+        
+        # Start Docker fresh
+        open -a Docker
+        
+        # Wait for Docker to start
+        for i in {1..90}; do
+          if docker info > /dev/null 2>&1; then
+            echo "Docker is running"
+            break
+          fi
+          echo "Waiting for Docker... ($i/90)"
+          sleep 5
+        done
+        
+        # Reset Docker builder
+        docker builder prune -f || true
+        
+    - name: Build Docker image
+      run: |
+        docker buildx rm fresh-builder || true
+        docker buildx create --use --name fresh-builder --driver docker-container
+        docker build --no-cache -t acupuncture-api .
+    
+    - name: Google Cloud Auth
+      uses: google-github-actions/auth@v1
+      with:
+        credentials_json: ${{ secrets.GCP_SA_KEY }}
+        
+    - name: Set up Cloud SDK
+      uses: google-github-actions/setup-gcloud@v1
+    
+    - name: Configure Docker for GCP
+      run: |
+        gcloud auth configure-docker us-central1-docker.pkg.dev --quiet
+        gcloud auth print-access-token | docker login -u oauth2accesstoken --password-stdin https://us-central1-docker.pkg.dev
+    
+    - name: Build and Push Docker image
+      run: |
+        PROJECT_ID="acupuncture-api-prod"
+        docker buildx create --use
+        docker buildx build --platform linux/amd64 \
+          -t us-central1-docker.pkg.dev/${PROJECT_ID}/acupuncture-api/api:latest \
+          --push .
+    
+    - name: Deploy to Cloud Run
+      run: |
+        PROJECT_ID="acupuncture-api-prod"
+        gcloud run deploy acupuncture-api \
+          --project ${PROJECT_ID} \
+          --image us-central1-docker.pkg.dev/${PROJECT_ID}/acupuncture-api/api:latest \
+          --platform managed \
+          --region us-central1 \
+          --port 8080 \
+          --timeout 300 \
+          --cpu 1 \
+          --memory 512Mi \
+          --allow-unauthenticated
