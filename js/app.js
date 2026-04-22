@@ -15,6 +15,8 @@ const App = {
         this.views = document.querySelectorAll('.view');
         this.pageTitle = document.getElementById('page-title');
         this.themeBtn = document.getElementById('theme-btn');
+        this.hamburgerBtn = document.getElementById('hamburger-btn');
+        this.navLinksContainer = document.getElementById('nav-links');
         
         // Dashboard Stats
         this.statTotal = document.getElementById('stat-total');
@@ -27,12 +29,30 @@ const App = {
                 e.preventDefault();
                 const viewName = e.currentTarget.getAttribute('data-view');
                 this.switchView(viewName);
+                
+                // Close mobile nav after selection
+                if (this.navLinksContainer) {
+                    this.navLinksContainer.classList.remove('open');
+                }
+                if (this.hamburgerBtn) {
+                    this.hamburgerBtn.innerHTML = '<i class="fa-solid fa-bars"></i>';
+                }
             });
         });
 
         this.themeBtn.addEventListener('click', () => {
             this.toggleTheme();
         });
+
+        // Hamburger menu toggle
+        if (this.hamburgerBtn && this.navLinksContainer) {
+            this.hamburgerBtn.addEventListener('click', () => {
+                const isOpen = this.navLinksContainer.classList.toggle('open');
+                this.hamburgerBtn.innerHTML = isOpen 
+                    ? '<i class="fa-solid fa-xmark"></i>' 
+                    : '<i class="fa-solid fa-bars"></i>';
+            });
+        }
     },
 
     switchView(viewName) {

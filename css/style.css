@@ -767,15 +767,353 @@ header {
     font-size: 12px;
 }
 
-/* Responsive */
+/* ===== HAMBURGER MENU (hidden on desktop) ===== */
+.hamburger {
+    display: none;
+    background: transparent;
+    border: none;
+    color: var(--text-main);
+    font-size: 22px;
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.hamburger:hover {
+    background: rgba(13, 148, 136, 0.1);
+    color: var(--color-primary);
+}
+
+.sidebar-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* ===== RESPONSIVE — MOBILE ===== */
 @media (max-width: 768px) {
-    #app { flex-direction: column; }
-    .sidebar { width: 100%; height: auto; padding: 16px; flex-direction: row; justify-content: space-between; align-items: center; border-right: none; border-bottom: 1px solid var(--border-color); }
-    .logo { margin-bottom: 0; padding: 0; }
-    .nav-links { display: none; } /* Could add hamburger menu later */
-    header { padding: 20px; }
-    #views { padding: 0 20px 20px 20px; }
-    .fc-face { padding: 24px; }
+    /* Layout */
+    #app {
+        flex-direction: column;
+    }
+
+    /* Sidebar becomes top bar with expandable nav */
+    .sidebar {
+        width: 100%;
+        height: auto;
+        padding: 12px 16px;
+        border-right: none;
+        border-bottom: 1px solid var(--border-color);
+        position: sticky;
+        top: 0;
+        z-index: 100;
+        background: var(--sidebar-bg);
+    }
+
+    .sidebar-top {
+        width: 100%;
+    }
+
+    .hamburger {
+        display: flex;
+    }
+
+    .logo {
+        margin-bottom: 0;
+        padding: 0;
+        font-size: 20px;
+    }
+    .logo i {
+        font-size: 22px;
+    }
+
+    /* Nav links: hidden by default, shown when .open */
+    .nav-links {
+        display: none;
+        width: 100%;
+        padding: 8px 0 0 0;
+    }
+
+    .nav-links.open {
+        display: block;
+    }
+
+    .nav-links li {
+        padding: 0;
+        margin-bottom: 2px;
+    }
+
+    .nav-links a {
+        padding: 12px 16px;
+        font-size: 14px;
+        border-radius: 8px;
+        gap: 12px;
+    }
+
+    /* Theme toggle: inline in top bar on mobile */
+    .theme-toggle {
+        display: none;
+    }
+
+    .nav-links.open ~ .theme-toggle,
+    .sidebar .theme-toggle {
+        display: block;
+        padding: 8px 0 0;
+    }
+
+    /* Header */
+    header {
+        padding: 16px 16px 8px;
+    }
+    .header-title h1 {
+        font-size: 22px;
+    }
+
+    /* Content */
+    #views {
+        padding: 0 12px 16px;
+    }
+
+    /* ===== Dashboard ===== */
+    .stats-overview {
+        grid-template-columns: 1fr;
+        gap: 12px;
+        margin-bottom: 20px;
+    }
+    .stat-card {
+        padding: 16px;
+    }
+    .stat-value {
+        font-size: 28px;
+    }
+    .stat-icon {
+        font-size: 60px;
+    }
+
+    .welcome-banner {
+        padding: 24px;
+        border-radius: 12px;
+    }
+    .welcome-banner h2 {
+        font-size: 20px;
+    }
+    .welcome-banner p {
+        font-size: 14px;
+    }
+    .welcome-banner::after {
+        font-size: 120px;
+        right: -30px;
+        bottom: -40px;
+    }
+
+    /* ===== Flashcards ===== */
+    .flashcard-mode-toggle {
+        flex-wrap: wrap;
+        width: 100%;
+        padding: 6px;
+        gap: 4px;
+    }
+    .mode-btn {
+        font-size: 12px;
+        padding: 6px 10px;
+        flex: 1;
+        min-width: 0;
+        text-align: center;
+        white-space: nowrap;
+    }
+
+    .flashcard-container {
+        height: 360px;
+        max-width: 100%;
+    }
+    .fc-face {
+        padding: 20px 16px;
+    }
+    .fc-front .fc-disease {
+        font-size: 26px;
+    }
+    .fc-front .fc-syndrome {
+        font-size: 16px;
+    }
+    .fc-front .fc-manifestation {
+        font-size: 13px;
+        max-width: 100%;
+    }
+    .fc-back h3 {
+        font-size: 13px;
+        margin-top: 14px;
+    }
+    .fc-back p {
+        font-size: 14px;
+    }
+
+    .flashcard-actions {
+        margin-top: 20px;
+        gap: 8px;
+    }
+    .flashcard-actions button {
+        padding: 8px 14px;
+        font-size: 13px;
+    }
+
+    /* Acupoint card mobile */
+    .acu-front-name {
+        font-size: 36px;
+    }
+    .acu-front-code {
+        font-size: 14px;
+    }
+
+    /* ===== Quiz ===== */
+    .quiz-setup {
+        padding: 32px 20px;
+    }
+    .quiz-setup h2 {
+        font-size: 22px;
+    }
+    .quiz-active {
+        padding: 20px 16px;
+    }
+    .quiz-question-box p {
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+    .quiz-option {
+        padding: 12px 14px;
+        font-size: 14px;
+    }
+    .quiz-result {
+        padding: 40px 20px;
+    }
+    .score-circle {
+        width: 110px;
+        height: 110px;
+        font-size: 30px;
+        border-width: 6px;
+    }
+
+    /* ===== Manage ===== */
+    .manage-header {
+        flex-direction: column;
+        gap: 12px;
+    }
+    .search-box {
+        width: 100%;
+    }
+    .data-table th,
+    .data-table td {
+        padding: 10px 8px;
+        font-size: 12px;
+    }
+
+    /* ===== Acupoints Directory ===== */
+    .acupoints-toolbar {
+        flex-direction: column;
+        gap: 12px;
+    }
+    .acu-list-grid {
+        grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+        gap: 10px;
+    }
+
+    /* ===== Internal Medicine ===== */
+    .neike-toolbar {
+        padding: 1rem;
+        gap: 1rem;
+    }
+    .category-tabs {
+        gap: 6px;
+    }
+    .cat-btn {
+        padding: 6px 12px;
+        font-size: 13px;
+    }
+    .neike-grid {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+    .neike-card-header {
+        padding: 1rem;
+    }
+    .neike-card-header h3 {
+        font-size: 1.2rem;
+    }
+    .neike-cat-badge {
+        top: 1rem;
+        right: 1rem;
+        font-size: 0.7rem;
+        padding: 0.15rem 0.5rem;
+    }
+    .neike-card-body {
+        padding: 1rem;
+    }
+    .main-symptom {
+        font-size: 0.85rem;
+        margin-bottom: 1rem;
+        padding-bottom: 0.75rem;
+    }
+    .pattern-header {
+        padding: 0.75rem;
+        flex-wrap: wrap;
+        gap: 4px;
+    }
+    .pattern-name {
+        min-width: auto;
+        font-size: 14px;
+    }
+    .pattern-formula {
+        font-size: 13px;
+        flex-basis: 100%;
+        order: 3;
+        color: var(--text-muted);
+    }
+    .pattern-item.expanded .pattern-details {
+        padding: 0.75rem;
+    }
+    .detail-section {
+        font-size: 0.8rem;
+    }
+    .formula-song {
+        padding: 0.75rem;
+    }
+    .formula-song p {
+        font-size: 0.8rem;
+        line-height: 1.5;
+    }
+
+    /* Neike flashcard back */
+    .neike-back-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.5rem;
+    }
+    .neike-back-header h3 {
+        font-size: 1rem;
+    }
+}
+
+/* ===== RESPONSIVE — SMALL PHONES ===== */
+@media (max-width: 400px) {
+    .flashcard-container {
+        height: 320px;
+    }
+    .fc-front .fc-disease {
+        font-size: 22px;
+    }
+    .fc-front .fc-syndrome {
+        font-size: 14px;
+    }
+    .mode-btn {
+        font-size: 11px;
+        padding: 5px 8px;
+    }
+    .acu-front-name {
+        font-size: 28px;
+    }
+    .cat-btn {
+        padding: 5px 10px;
+        font-size: 12px;
+    }
 }
 
 /* ===== AcuKG Tooltip & Info ===== */
@@ -1159,12 +1497,6 @@ header {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
     gap: 2rem;
-}
-
-@media (max-width: 600px) {
-    .neike-grid {
-        grid-template-columns: 1fr;
-    }
 }
 
 .neike-card {
